@@ -2,7 +2,7 @@
 
 This guide will walk you through the process of building the smallest possible Docker image. By following these steps, you'll achieve a more than 1000x reduction in image size compared to the initial one.
 
-**Dockerfile.big**
+**Dockerfile.big**  
 docker build -t go-big -f Dockerfile.big .  
 docker image ls go-big  
 docker run -ti --rm go-big  
